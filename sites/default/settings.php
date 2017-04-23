@@ -23,3 +23,15 @@ $local_settings = __DIR__ . "/settings.local.php";
 if (file_exists($local_settings)) {
   include $local_settings;
 }
+$databases['default']['default'] = array (
+  'database' => 'meetup_demo_dev',
+  'username' => 'root',
+  'password' => 'root',
+  'prefix' => '',
+  'host' => '127.0.0.1',
+  'port' => '32769',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['hash_salt'] = 'DRHIA3v7fBVjxvG7aBKOITJInmkV43gHeqbzNJHioT3guif_kTWgP8mgQN2jRszSLsUxxw4HmA';
+$settings['install_profile'] = 'standard';
