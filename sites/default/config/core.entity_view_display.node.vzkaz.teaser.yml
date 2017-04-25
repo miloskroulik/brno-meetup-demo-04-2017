@@ -1,0 +1,18 @@
+uuid: 6189a33f-82e9-47e0-b249-d0fdba2ff430
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.vzkaz
+  module:
+    - user
+id: node.vzkaz.teaser
+targetEntityType: node
+bundle: vzkaz
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden: {  }

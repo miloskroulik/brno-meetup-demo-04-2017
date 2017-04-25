@@ -1,0 +1,25 @@
+uuid: 029a198c-7f2a-495f-8726-2ca1c8770ad4
+langcode: en
+status: true
+dependencies:
+  config:
+    - colossal_menu.link_type.s_obrazkem
+    - field.field.colossal_menu_link.s_obrazkem.field_obrazek
+    - image.style.thumbnail
+  module:
+    - image
+id: colossal_menu_link.s_obrazkem.default
+targetEntityType: colossal_menu_link
+bundle: s_obrazkem
+mode: default
+content:
+  field_obrazek:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

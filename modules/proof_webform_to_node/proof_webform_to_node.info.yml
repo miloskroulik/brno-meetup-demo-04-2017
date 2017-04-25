@@ -1,0 +1,7 @@
+name: Proof Webform Submission to Node
+type: module
+description: Provides webform handler allowing to convert webform submissions to nodes. Allows to specify node type and status. Allows to choose the source of a title field. IMPORTANT: This module supports only plain text elements for now (it makes no attemt to bridge differences in storage between webform elements and nodes.
+core: 8.x
+package: Proof&Reason
+dependencies:
+  - webform

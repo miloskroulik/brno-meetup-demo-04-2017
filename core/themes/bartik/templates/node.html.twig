@@ -66,6 +66,7 @@
  * @see template_preprocess_node()
  */
 #}
+{{ breakpoint() }}
 {%
   set classes = [
     'node',
@@ -98,6 +99,10 @@
     {% endif %}
   </header>
   <div{{ content_attributes.addClass('node__content', 'clearfix') }}>
+    {{ content.body|field_value }}
+    <hr>
+    {{ drupal_block('bartik_search') }}
+    <hr>
     {{ content }}
   </div>
 </article>

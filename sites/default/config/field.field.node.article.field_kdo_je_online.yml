@@ -1,0 +1,47 @@
+uuid: e7918b39-afd9-4de7-9f2f-b10b32f4667d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kdo_je_online
+    - node.type.article
+    - views.view.who_s_online
+  module:
+    - viewsreference
+id: node.article.field_kdo_je_online
+field_name: field_kdo_je_online
+entity_type: node
+bundle: article
+label: 'Kdo je online'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    display_id: who_s_online_block
+    argument: null
+    title: 1
+    target_uuid: 6d60ea01-b000-43c0-b85a-3ed36cb3d809
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: 0
+  plugin_types:
+    block: block
+    default: 0
+    page: 0
+    feed: 0
+  preselect_views:
+    block_content: 0
+    comments_recent: 0
+    content: 0
+    content_recent: 0
+    files: 0
+    frontpage: 0
+    taxonomy_term: 0
+    user_admin_people: 0
+    who_s_new: 0
+    who_s_online: 0
+field_type: viewsreference

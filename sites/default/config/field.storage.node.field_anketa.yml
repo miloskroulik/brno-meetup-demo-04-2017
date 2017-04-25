@@ -1,0 +1,20 @@
+uuid: 1d94ceca-53ee-4fba-9152-52dadc633656
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - poll
+id: node.field_anketa
+field_name: field_anketa
+entity_type: node
+type: entity_reference
+settings:
+  target_type: poll
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

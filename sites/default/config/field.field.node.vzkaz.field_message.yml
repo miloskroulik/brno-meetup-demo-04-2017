@@ -1,0 +1,19 @@
+uuid: c7696fbf-052d-4685-99d0-fb4e7d774151
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_message
+    - node.type.vzkaz
+id: node.vzkaz.field_message
+field_name: field_message
+entity_type: node
+bundle: vzkaz
+label: Message
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

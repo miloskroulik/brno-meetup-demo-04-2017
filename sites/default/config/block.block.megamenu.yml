@@ -1,0 +1,24 @@
+uuid: 130ba3b0-2502-4d53-b068-584218a3df4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - colossal_menu.menu.megamenu
+  module:
+    - colossal_menu
+  theme:
+    - bartik
+id: megamenu
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'colossal_menu_block:megamenu'
+settings:
+  id: 'colossal_menu_block:megamenu'
+  label: Megamenu
+  provider: colossal_menu
+  label_display: visible
+  level: '1'
+  depth: '0'
+visibility: {  }

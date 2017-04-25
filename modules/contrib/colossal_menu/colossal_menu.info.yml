@@ -1,0 +1,14 @@
+name: Colossal Menu
+type: module
+description: Menu of Epic Proportions
+# core: 8.x
+package: Menu
+dependencies:
+  - machine_name_widget
+  - link
+
+# Information added by Drupal.org packaging script on 2017-04-18
+version: '8.x-1.0'
+core: '8.x'
+project: 'colossal_menu'
+datestamp: 1492559051

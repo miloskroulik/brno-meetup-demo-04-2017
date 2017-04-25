@@ -1,0 +1,21 @@
+uuid: f1ef8c90-9c82-4478-8d17-e54028748462
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - views
+    - viewsreference
+id: node.field_kdo_je_online
+field_name: field_kdo_je_online
+entity_type: node
+type: viewsreference
+settings:
+  target_type: view
+module: viewsreference
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

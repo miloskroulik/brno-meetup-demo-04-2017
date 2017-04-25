@@ -1,0 +1,25 @@
+uuid: eaa97038-dc54-4c50-afe5-2856978705d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anketa
+    - node.type.article
+id: node.article.field_anketa
+field_name: field_anketa
+entity_type: node
+bundle: article
+label: Anketa
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:poll'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

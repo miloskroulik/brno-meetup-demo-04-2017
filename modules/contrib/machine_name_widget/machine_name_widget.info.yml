@@ -1,0 +1,11 @@
+name: Machine Name Widget
+type: module
+description: Provides a machine name widget.
+# core: 8.x
+package: Field types
+
+# Information added by Drupal.org packaging script on 2017-04-18
+version: '8.x-1.0'
+core: '8.x'
+project: 'machine_name_widget'
+datestamp: 1492559950

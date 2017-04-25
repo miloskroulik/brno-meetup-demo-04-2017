@@ -1,0 +1,40 @@
+uuid: e4f40a40-9cd9-45a7-899c-a117c1d3fb1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - colossal_menu.link_type.s_obrazkem
+    - field.field.colossal_menu_link.s_obrazkem.field_obrazek
+    - image.style.thumbnail
+  module:
+    - image
+    - link
+    - machine_name_widget
+id: colossal_menu_link.s_obrazkem.default
+targetEntityType: colossal_menu_link
+bundle: s_obrazkem
+mode: default
+content:
+  field_obrazek:
+    weight: 11
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  langcode:
+    type: language_select
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  link:
+    type: link_default
+    weight: -2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden: {  }

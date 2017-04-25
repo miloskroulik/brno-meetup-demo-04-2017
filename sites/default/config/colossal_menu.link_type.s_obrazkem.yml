@@ -1,0 +1,6 @@
+uuid: a32a318c-4afc-4437-abdd-bd6b95ad8944
+langcode: en
+status: true
+dependencies: {  }
+id: s_obrazkem
+label: 'S obrázkem'

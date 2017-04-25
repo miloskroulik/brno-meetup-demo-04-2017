@@ -1,0 +1,22 @@
+uuid: 258ca25d-d024-459a-a59b-db93ac66ad64
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.vzkaz
+id: node.vzkaz.status
+field_name: status
+entity_type: node
+bundle: vzkaz
+label: 'Publishing status'
+description: 'A boolean indicating the published state.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
